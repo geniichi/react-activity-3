@@ -1,0 +1,26 @@
+#title {color:#fff;}
+
+@media(max-width:1285px) {
+    #title {
+        font-size: 27px;
+
+    }
+}
+
+@media(max-width:780px) {
+    #title {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:667px) {
+    #title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:380px) {
+    #title {
+        font-size: 17px;
+    }
+}

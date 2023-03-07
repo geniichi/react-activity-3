@@ -1,0 +1,33 @@
+#color-container {
+    border:2px solid #000;
+    margin:50px 2rem;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorTextoutput {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+  @media(max-width:780px) {
+    #color-container {margin:45px 1.3rem;}
+  }
+
+  @media(max-width:667px) {
+    #color-container {margin:40px 0.9rem;}
+    #colorTextoutput {font-size:10px;}
+  }
+
+  @media(max-width:490px) {
+    #colorText {height:25px;width:13rem;}
+    #colorSubmit {width:2.9rem;}
+  }
+
+  @media(max-width:380px) {
+    form {margin: auto 15%;}
+    #textfield {display:flex;justify-content: center;flex-direction:column;}
+    #colorText {height:23px;width:9rem;border:2px solid #000;border-bottom:none;}
+    #colorSubmit {width:9.48rem;border:2px solid #000;border-top:none;}
+  }
